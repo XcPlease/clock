@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:ital,wght@1,200&family=Work+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:wght@500&display=swap');
+/* This is how to center */
+body {
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0;
+min-height: 90vh;
+}
+.circle {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(51, 50, 50);
+  border-radius: 1000px;
+  padding: 100px;
+  border: 3px solid rgb(183, 154, 212);
+  
+}
+
+.intext {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight:100;
+  font-size: 60px;
+  margin-top: -220px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.today {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight:normal;
+  font-size: 35px;
+  margin-top: -60px;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100;
+}
+
+.date {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight:normal;
+  font-size: 22px;
+  margin-top: -30px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.print {
+display: flex;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0;
+margin-top: 360px;
+margin-right:10px ;
+padding: 0px;
+}
